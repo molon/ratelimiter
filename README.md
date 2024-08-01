@@ -1,5 +1,7 @@
 # ratelimiter
 
+**Move to https://github.com/theplant/ratelimiter**
+
 Currently only supports GORM as the driver, with plans to integrate Redis in the future.
 
 ```
