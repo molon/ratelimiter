@@ -1,8 +1,3 @@
-# ratelimiter
-
-Currently only supports GORM as the driver, with plans to integrate Redis in the future.
-
-```
 package ratelimiter_test
 
 import (
@@ -121,5 +116,3 @@ func ExampleDriverGORM() {
 	// 2h43m0s: allowed: false , you can retry after 2m0s
 	// 2h44m0s: allowed: false , you can retry after 1m0s
 }
-
-```
